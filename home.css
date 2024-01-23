@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Ubuntu:wght@300&display=swap');
+
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.mr{
+    margin-right: 25px;
+}
+#uber{
+    margin-top: 100px;
+}
+
+.anima{
+    transition: 2s;
+
+}
+.anima:active{
+    transform: rotate(1turn);
+    margin: 20px;
+    
+    
+}
+
+.header {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.131) 0%, rgba(0, 0, 0, 0.13) 100%);
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+.green {
+    color: rgb(6, 6, 6);
+    text-shadow: 10px 10px 10px;
+    background: linear-gradient(90deg, rgba(222, 225, 224, 0.493) 100%, rgba(255, 255, 255, 0.444) 100%);
+    left: 0;
+    right: 0;
+    bottom: 0;
+}

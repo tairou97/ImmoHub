@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ImooHope</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/7a0ba6b588.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="view.css">
+</head>
+
+<body>
+    <header data-bs-theme="dark">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+          
+          <div class="container-fluid ">
+            <img src="./gallery/immohope-4.png" width="200px" alt="">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse mx-5" id="navbarCollapse">
+              <ul class="navbar-nav me-auto mb-2 mb-md-0 fs-5">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./Gallery.html">Galerie</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="./contact.html">Kontakt</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="./Impressum.html">Impressum</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="./datenschutz.html">Datenschutz</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+    </header>
+
+    <nav class="navbar navbar-dark bg-dark sticky-top ">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Link</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav> 
+
+    <div class="img d-flex  justify-content-center align-content-center mt-5"> <img class="w-25 " src="./immohope-logos/immohope-4.png" alt=""></div>
+
+
+    <div id="carouselExampleAutoplaying" class="carousel slide container  my-5 w-75  " data-bs-ride="carousel">
+        <div class="carousel-inner  " >
+            <div class="carousel-item active">
+                <img src="./img-Card/card-4/card.1.jpeg" class="d-block w-100" alt="...">
+
+            </div>
+
+            <div class="carousel-item">
+                <img src="./img-Card/card-4/card-2.jpeg" class="d-block w-100" alt="...">
+
+            </div>
+
+            <div class="carousel-item">
+                <img src="./img-Card/card-4/card.3.jpeg" class="d-block w-100" alt="...">
+
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="number">
+        <a href="view-3.html"><i class="fa-solid fa-arrow-left"></i></a>
+        <a href="view-1.html">1</a>
+        <a href="view-2.html">2</a>
+        <a href="view-3.html">3</a>
+        <a href="view-4.html">4</a>
+        <a href="view-5.html">5</a>
+        <a href="view-6.html">6</a>
+        <a href="view-7.html">7</a>
+        <a href="view-8.html">8</a>
+        <a href="view-9.html">9</a>
+        <a href="view-5.html"><i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+
+
+        <main class="container">
+    
+                <div class="p-5 mb-4 bg-body-tertiary rounded-3">
+                    <div class="container-fluid py-5">
+                        <h3  class="display-5 fw-bold">Loft mit industriellem Flair:</h3>
+                        <p class="col-md-8 fs-4"> 
+                            Ein stilvolles Loft mit hohen Decken, freiliegenden Ziegelwänden und moderner Einrichtung. Ideal für
+                            kreative Köpfe und Liebhaber des industriellen Designs.</p>
+                        <button class="btn btn-primary btn-lg" type="button">Example button</button>
+                    </div>
+                </div>
+
+                <div class="row align-items-md-stretch">
+                    <div class="col-md-6">
+                        <div class="h-100 p-5 ">
+                <iframe class=" rounded-4 h-100 w-100 "
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2661.5249637177476!2d-81.40177848080482!3d19.370681087245387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f2f7d8b9ba6f87d%3A0xde355aa4877bce0d!2sCalypso%20Cove!5e0!3m2!1sen!2sde!4v1694691858705!5m2!1sen!2sde"
+                                width="700" height="500" style="border:0; " allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                    <div class="col-md-6 ">
+                        <div class="h-100 p-5    h-100 w-100">
+                            <div class="g-col-3 g-start-2  ">
+                                <table class="table h-25  table-hover ">
+                                    <h3>629.200 Tsd. €</h3> 
+                                    <tr>
+                                        
+                                        <td>Typ:</td>
+                                        <td>Wohnung</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Etage:</td>
+                                        <td> 2 von 6</td>
+                                    </tr>
+                                    <tr>
+                                        <td> Wohnfläche ca.:</td>
+                                        <td> 135m²</td>
+                                    </tr>
+                                    <tr>
+                                        <td> Zimmer:</td>
+                                        <td> 5.5</td>
+                                    </tr>
+                                    <tr>
+                                        <td> Schlafzimmer: </td>
+                                        <td>3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Badezimmer:</td>
+                                        <td> 2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Bezugsfrei:</td>
+                                        <td> ab sofort</td>
+                                    </tr>
+                                    <tr>
+                                        <td> Garage/ Stellplatz .:</td>
+                                        <td> 1 Stellplatz</td>
+                                    </tr>
+                                    <tr>
+                                        <td> Internet:</td>
+                                        <td> Verfügbarkeit prüfen</td>
+                                    </tr>
+        
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer>
+                <div class="d-flex justify-content-center bg-dark p-4 text-white position-absolute w-100">
+                    © Immohope GmbH
+                </div>
+            </footer>
+          
+
+    </body>
+
+</html>

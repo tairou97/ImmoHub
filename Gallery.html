@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head><script src="../assets/js/color-modes.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.115.4">
+    <script src="https://kit.fontawesome.com/39428754a9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Galerie</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="view.css">
+
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+      <symbol id="check2" viewBox="0 0 16 16">
+        <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+      </symbol>
+      <symbol id="circle-half" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
+      </symbol>
+      <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+        <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+        <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/>
+      </symbol>
+      <symbol id="sun-fill" viewBox="0 0 16 16">
+        <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+      </symbol>
+    </svg>
+
+
+    <header data-bs-theme="dark">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        
+        <div class="container-fluid ">
+          <img src="./gallery/immohope-4.png" width="200px" alt="">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse mx-5" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0 fs-5">
+              <li class="nav-item">
+                <a class="nav-link " href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="Gallery.html">Galerie</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="contact.html">Kontakt</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="Impressum.html">Impressum</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="datenschutz.html">Datenschutz</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    
+
+<main>
+
+  <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <video src="./gallery/clouds_-_9741 (540p) (1).mp4" loop class="object-fit-fill border rounded" style="width:100%;height: 500px;" autoplay></video>
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Leben in Freiheit</h1>
+            <p class="opacity-75; text-primary;" style="font-weight: bolder;color:rgb(251, 0, 255)" >mit uns nicht nur leben sondern jeden Tag Erleben</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <video src="./gallery/olhao_-_14088 (540p).mp4" loop class="object-fit-fill border rounded" style="width:100%;height: 500px;" autoplay></video>
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Leben in Freiheit</h1>
+            <p class="opacity-75" style="font-weight: bolder;color:rgb(251, 0, 255)">mit uns nicht nur leben sondern jeden Tag Erleben</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <video src="./gallery/water_-_3967 (540p).mp4" loop class="object-fit-fill border rounded" style="width:100%;height: 500px;;;" autoplay></video>
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Leben in Freiheit</h1>
+            <p class="opacity-75" style="font-weight: bolder;color:rgb(251, 0, 255)">mit uns nicht nur leben sondern jeden Tag Erleben</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+  </div>
+
+  <div class="container marketing">
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="./gallery/house-1477041_1280.jpg" class=" rounded-circle" width="50%" height="50%" alt="">
+        <hr>
+        <h2 class="fw-normal">Modern Leben</h2>
+        <p>Stadtleben im Wandel: Moderne Architektur und pulsierende Vielfalt - für ein modernes Leben in der Metropole.</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div>
+      <div class="col-lg-4">
+        <img src="./gallery/living-room-2732939_1280.jpg" class="rounded-circle" width="50%" height="50%" alt="">
+        <hr>
+        <h2 class="fw-normal">sich Frei fühlen</h2>
+        <p>Naturnähe und Freiheit pur: ............Entdecken Sie ländliche Idylle und grüne Oasen - sich frei fühlen in der Natur</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div>
+      <div class="col-lg-4">
+        <img src="./gallery/san-francisco-210230_1920.jpg" class="rounded-circle" width="50%" height="50%" alt="">
+        <hr>
+        <h2 class="fw-normal">für jedes Geschmack</h2>
+        <p>Gastronomische Vielfalt, Kunst und Kultur: Genuss für jeden Geschmack - erleben Sie das bunte Stadtleben hautnah</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div>
+    </div>
+
+
+
+    <hr class="featurette-divider p-3" style="margin: 100px;">
+    <marquee  direction="left" behavior="scroll" scrollamount="15" scrolldelay="1" style="color: #0a4d2d;font-size:50px;font-family:Monotype Corsiva;text-shadow: 5px 6px 5px rgba(6, 89, 46, 0.87),11px -11px 18px rgb(177, 171, 174);" >
+      "Ihre Traumimmobilie erwartet Sie"          "Entdecken Sie Ihr Zuhause mit uns" "Qualitätsimmobilien, die zu Ihrem Lebensstil passen" "Ihre Immobilienexperten vor Ort" "Finden Sie Ihre Oase in der Stadt" "Wohnen Sie in Luxus und Komfort" "Ihre Reise zum perfekten Zuhause beginnt hier" "Investieren Sie klug in Immobilien" "Ihr Partner für erstklassige Immobilienlösungen" "Erfüllen Sie Ihren Wohntraum mit uns"
+      </marquee>
+      <hr class="featurette-divider p-3" style="margin: 100px;">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Moderne <span class="text-body-secondary">Architektur:</span></h2>
+        <p class="lead">Moderne Architektur ist geprägt von innovativem Design und avantgardistischen Konzepten. Gebäude mit klaren Linien, großen Glasfassaden und minimalistischem Stil definieren diese Ära. In den Städten sehen wir Wolkenkratzer, die den Himmel durchdringen, und innovative Wohngebäude, die Funktionalität und Ästhetik harmonisch miteinander verbinden. Diese Architektur spiegelt das zeitgenössische Lebensgefühl wider und schafft eindrucksvolle städtische Landschaften.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="./gallery/pexels-misael-garcia-1707823.jpg" width="500" height="500"alt="">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">Green<span class="text-body-secondary">Architektur:</span></h2>
+        <p class="lead">Green Architektur, auch als nachhaltige Architektur bekannt, setzt auf ökologische Prinzipien, um die Umweltauswirkungen von Gebäuden zu minimieren. Dabei kommen umweltfreundliche Baumaterialien, Energieeffizienz und ökologisches Design zum Einsatz. Gründächer, Sonnenkollektoren und Regenwassersammlungssysteme sind nur einige Beispiele für nachhaltige Technologien. Green Architektur zielt darauf ab, Ressourcen zu schonen, den Energieverbrauch zu reduzieren und ein gesünderes Lebensumfeld zu schaffen.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="./gallery/pexels-longxiang-qian-1849112.jpg" width="500" height="500"alt="">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Zukunfts <span class="text-body-secondary">architektur:</span></h2>
+        <p class="lead">Zukunftsarchitektur ist ein visionärer Ansatz, der auf die Gestaltung von Gebäuden und Städten im Einklang mit den Bedürfnissen und Technologien der kommenden Jahrzehnte abzielt. Sie umfasst fortschrittliche Konzepte wie intelligente Gebäude, die mit künstlicher Intelligenz gesteuert werden, und vertikale Gärten, die die Luftqualität verbessern. In dieser Architektur werden auch Fragen der Mobilität und Nachhaltigkeit berücksichtigt, da sie sich auf die Bewältigung der Herausforderungen der Zukunft konzentriert, wie den Klimawandel und die Urbanisierung.
+        </p>
+      </div>
+      <div class="col-md-5">
+        <img src="./gallery/pexels-francesco-ungaro-4322027.jpg" width="500" height="500"alt="">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+  
+</main>
+<footer>
+  <div class="d-flex justify-content-center bg-dark p-4 text-white position-absolute w-100">
+      © Immohope GmbH
+  </div>
+</footer>
+<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+    </body>
+</html>

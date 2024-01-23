@@ -1,0 +1,49 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Ubuntu:wght@300&display=swap');
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+.number{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 23px;
+    
+}
+
+
+a{
+    margin-right: 25px;
+    text-decoration: none;
+    border: solid rgb(150, 148, 148) 3px;
+    padding: 7px 14px ;
+    color: grey;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+i{
+    color: grey;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+a:hover{
+    color: black;
+    border-color: black;
+}
+i:hover{
+    color: black;
+    border-color: black;
+}
+#uber{
+    margin-top: 100px;
+}
+
+.kelb{
+    margin-top: 110px;
+}
